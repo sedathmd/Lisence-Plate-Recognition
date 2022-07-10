@@ -81,17 +81,8 @@ def rec(img):
                 arduino.write(b'1')
                 time.sleep(5)
                 arduino.write(b'0')
-            # while(1):
-                
-            #     datafromUser = DB.karsılastırma(text)
-                
-            #     if datafromUser !=[]:
-            #         arduino.write(b'1')
-            #     if datafromUser ==[]:
-            #         arduino.write(b'0')
-            
-            
-                               
+          
+                           
             
     except Exception:
         
